@@ -32,6 +32,9 @@ $(document).ready(function() {
 	}, {
         name: 'dop',
         plink: 'https://steamcommunity.com/profiles/76561198190916733/'
+	}, {
+        name: 'NoHax',
+        plink: 'https://steamcommunity.com/profiles/76561198154363115/'
        }, ];
     for (var i in plinks) {
         var plink = plinks[i];
