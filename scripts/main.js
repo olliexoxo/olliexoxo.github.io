@@ -38,6 +38,12 @@ $(document).ready(function() {
 	}, {
         name: 'cha',
         plink: 'https://steamcommunity.com/profiles/76561198249090462/'
+	}, {
+        name: 'Ghostie',
+        plink: 'https://steamcommunity.com/profiles/76561198169876250/'
+	}, {
+        name: 'CyberGhost',
+        plink: 'https://steamcommunity.com/profiles/76561198193578958/'
        }, ];
     for (var i in plinks) {
         var plink = plinks[i];
