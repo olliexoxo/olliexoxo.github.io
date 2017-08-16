@@ -9,7 +9,7 @@ $(document).ready(function() {
         name: 'Mafia',
         plink: 'https://steamcommunity.com/profiles/76561198195044450'
     }, {
-		name: 'exo',
+	name: 'exo',
         plink: 'https://steamcommunity.com/profiles/76561198103443355'
     }, {
         name: 'AxB',
@@ -17,12 +17,9 @@ $(document).ready(function() {
     }, {
         name: 'DU DU DU',
         plink: 'http://steamcommunity.com/profiles/76561198051193400/'
-    }, {
+        }, {
         name: 'n0de',
         plink: 'http://steamcommunity.com/profiles/76561197962084727/'
-	}, {
-        name: 'somber',
-        plink: 'https://steamcommunity.com/profiles/76561198311155041/'
 	}, {
         name: 'Maestro',
         plink: 'https://steamcommunity.com/profiles/76561198138058643/'
@@ -36,14 +33,8 @@ $(document).ready(function() {
         name: 'NoHax',
         plink: 'https://steamcommunity.com/profiles/76561198154363115/'
 	}, {
-        name: 'cha',
-        plink: 'https://steamcommunity.com/profiles/76561198249090462/'
-	}, {
         name: 'Ghostie',
         plink: 'https://steamcommunity.com/profiles/76561198169876250/'
-	}, {
-        name: 'CyberGhost',
-        plink: 'https://steamcommunity.com/profiles/76561198193578958/'
        }, ];
     for (var i in plinks) {
         var plink = plinks[i];
