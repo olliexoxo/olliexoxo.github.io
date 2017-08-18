@@ -1,33 +1,140 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-    	<meta charset="utf-16">
-		<title>ollie</title>
-        <link rel="stylesheet" href="css\style.css">
-		<link rel="stylesheet" href="css\animate.css">
-        <script src="scripts\jquery.js"></script>
-        <script src="scripts\marquee.js"></script>
-		<script src="scripts\main.js"></script>
-        <script src="scripts\me.js"></script>
-        <link rel="shortcut icon" href="images\favicon.png" type="image/x-icon">
-	</head>
-
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>>.<</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="theme-color" content="#3b3b3b">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/title.js"></script>
+	<script src="js/jquery.js"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/averion.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
 	
-	<div id="video" style="position: fixed; width: 100%; height: 100%; opacity: 1; z-index: 0;">
-	<iframe frameborder="0" height="100%" width="100%" style="opacity: 0.2; pointer-events:none; transform: scale(1.11); " src="https://www.youtube.com/embed/videoseries?list=PLCWH2WHiSzzq7PqkrAaQ-z9s6ssXXrsFj&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>
-	</div>
+      <!-- Malicious controls block script -->
+	<script>
+     document.onkeydown = function(e) {
+        if (e.ctrlKey && 
+            (e.keyCode === 67 || 
+             e.keyCode === 86 || 
+             e.keyCode === 85 || 
+             e.keyCode === 117)) {
+            return false;
+        } else {
+            return true;
+        }
+       };
+         $(document).keypress("u",function(e) {
+           if(e.ctrlKey)
+          {
+            return false;
+           }
+            else
+           {
+           return true;
+          }
+        });
+	</script>
+	<!-- //// -->
+	
+	<!-- F12 Prevent script -->
+	
+    <script language="JavaScript">
+    document.onkeypress = function (event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+           //alert('No F-12');
+            return false;
+        }
+    }
+    document.onmousedown = function (event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+            //alert('No F-keys');
+            return false;
+        }
+    }
+     document.onkeydown = function (event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+            //alert('No F-keys');
+            return false;
+        }
+    }
+    </script>
+    <!-- //// -->
+	
+</head>
+      <body oncontextmenu="return false;">
+	    <div class="container" style="height: 100%; display: flex; align-items: center; justify-content: center; margin: 0 auto; padding-top: 3rem;">
+		<main>
+			<div class="logo shadow">
+				<img class="img-fluid rounded-circle" src="img/logo.jpg">
+				</div>
 
-        <div id="center">
-		<div class="animated fadeInDown">
-		<pre style="font-size: 30px">ollie</pre>
-		</div>
-		<div class="animated fadeIn">
-        <pre>shoutouts:</pre>
-        <pre>/<div id="marquee"></div>/</pre>
-		</div>
-		<div class="animated fadeInUp">
-		<center><pre><a href="http://steamcommunity.com/id/enjoyers/" target="_blank">Main account</a> <a href="https://steamcommunity.com/profiles/76561198409510729" target="_blank"> Alt account</a></pre></center>
-		</div>
-        </div>
-		</html>
+			<h1>ollie</h1>
+			<h2>16 &bullet; hetro sexual helicopter &bullet;</h2>
+			
+			
+			<ul class="list-inline social">
+				<li class="list-inline-item">
+					<a href="https://github.com/olliexoxo" target="_blank">
+						<i class="fa fa-github" aria-hidden="true"></i>
+					</a>
+				</li>
+
+				<li class="list-inline-item">
+					<a href="http://steamcommunity.com/profiles/76561198119628656/" target="_blank">
+						<i class="fa fa-steam" aria-hidden="true"></i>
+					</a>
+				</li>
+
+				<li class="list-inline-item">
+					<a href="https://discord.gg/TvNpZAm" target="_blank">
+						<i class="fa fa-heart-o" aria-hidden="true"></i>
+					</a>
+				</li>
+
+				<li class="list-inline-item">
+					<a href="https://www.youtube.com/channel/UC18rMcS59bK2gyXQ1C5TWng" target="_blank">
+						<i class="fa fa-youtube-play" aria-hidden="true"></i>
+					</a>
+				</li>
+				
+				<li class="list-inline-item">
+					<a href="https://soundcloud.com/user-856331914" target="_blank">
+						<i class="fa fa-soundcloud" aria-hidden="true"></i>
+					</a>
+				</li>
+                  <!-- //// -->
+			</ul>
+
+			<footer>
+				SHOUTOUTS:<br>
+				<marquee width="80%"><a href="http://steamcommunity.com/id/4x8/">AxB</a> &bullet; <a href="http://steamcommunity.com/id/friggz1337">friggz</a> &bullet; <a href="http://steamcommunity.com/id/mecares">exo</a> &bullet; <a href="http://steamcommunity.com/id/Ghostie2399584">Ghostie</a> &bullet; <a href="http://steamcommunity.com/id/aiiy/">ally</a> &bullet; <a href="http://steamcommunity.com/id/Nooohax">NoHax</a> &bullet; <a href="http://steamcommunity.com/id/cute">Maestro</a> &bullet; <a href="https://steamcommunity.com/id/continuing">dop</a></marquee> 
+			</footer>
+			
+		<!-- Website Video Background -->
+        <video src="" type="img/mp4" autoplay="1" loop="" id="player">
+            <script>
+			var video = document.currentScript.parentElement;
+			video.volume = 0.05;
+			</script>
+        </video>
+		    <!-- //// -->
+			
+     <script>
+        var videofile = document.getElementById('player');
+        var Vids = ['vid1.mp4'];
+        videofile.setAttribute("src", 'img/' + Vids[Math.floor(Math.random() * Vids.length)]);
+    </script>
+	
+	    <!-- //// -->
+		
+		</main>
+	</div>
+</body>
+</html>
